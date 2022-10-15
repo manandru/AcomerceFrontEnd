@@ -1,0 +1,9 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact",
+        "other": "Other",
+        "login": "Login"   
+    }      
+}
