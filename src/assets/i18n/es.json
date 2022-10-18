@@ -1,9 +1,13 @@
 {
     "header": {
         "home": "Inicio",
+        "products": "Productos",
         "about": "Nosotros",
         "contact": "Contacto",
         "other": "Otro",
         "login": "Login"   
-    }      
+    },
+    "product":{
+        "shipping": "Envío"
+    }       
 }

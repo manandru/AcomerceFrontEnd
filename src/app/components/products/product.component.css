@@ -1,0 +1,15 @@
+
+.center {
+    width: 100%;
+    background: rgb(0,70,140);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    margin: 3px;
+    padding: 0px;
+}

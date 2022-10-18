@@ -1,9 +1,13 @@
 {
     "header": {
         "home": "Home",
+        "products": "Products",
         "about": "About",
         "contact": "Contact",
         "other": "Other",
         "login": "Login"   
+    },
+    "product":{
+        "shipping": "Shipping"
     }      
 }

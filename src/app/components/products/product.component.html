@@ -1,0 +1,6 @@
+<div class="center">
+    <img [src]="productData.images" alt="">
+    <h1>{{ productData.name }}</h1>
+    <h2>{{ productData.price | currency }}</h2>
+    <h3>{{ "product.shipping" | translate }}: {{ productData.shipping ? (productData.shipping | currency) : "free" }}</h3>
+</div>

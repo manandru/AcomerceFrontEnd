@@ -10,6 +10,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/shared/header/header.component';
+import { ProductComponent } from './components/products/product.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
 
 export function HttpLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http, './assets/i18n/', '.json')
@@ -18,7 +20,9 @@ export function HttpLoaderFactory(http: HttpClient){
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    ProductComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
